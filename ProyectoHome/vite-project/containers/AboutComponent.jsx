@@ -15,12 +15,6 @@ export default function AboutComponent() {
                     <div className="experience-text">Años de Experiencia</div>
                 </div>
             </div>
-            <div></div>
-
-
-
-
-            
             <div className="about-text">
                 <h3>Somos un equipo de innovadores apasionados por mejorar la experiencia educativa y recreativa</h3>
                 <p>Nuestro objetivo es facilitar la organización y
