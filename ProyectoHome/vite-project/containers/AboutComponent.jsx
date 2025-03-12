@@ -6,7 +6,8 @@ export default function AboutComponent() {
   return (
     <section  className="about-section">
     <div id="about" className="container">
-        <h3 className="section-title">Sobre Nosotros</h3>
+        <h2 className="section-title">Sobre Nosotros</h2>
+        
         <div className="about-content">
             <div className="about-image">
                 <img src="https://placehold.co/600x400" alt="Sobre ActivSena" />
