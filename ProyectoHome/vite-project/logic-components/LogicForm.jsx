@@ -1,4 +1,7 @@
-const contactForm = document.getElementById('contactForm');
+import React from 'react'
+
+export default function LogicForm() {
+  const contactForm = document.getElementById('contactForm');
 
 if (contactForm) {
   contactForm.addEventListener('submit', function(e) {
@@ -28,4 +31,6 @@ if (contactForm) {
     alert('¡Gracias por tu mensaje! Nos pondremos en contacto contigo pronto.');
     contactForm.reset();
   });
+}
+
 }

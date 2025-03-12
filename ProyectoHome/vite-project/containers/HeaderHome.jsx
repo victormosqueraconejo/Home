@@ -1,7 +1,8 @@
 import React from "react";
 import "../src/index.css"
 import "./styles/HeaderHome.css"
-import "../logic-components/HeaderMenu"
+import HeaderMenuLogic from "../logic-components/HeaderMenu.jsx"
+
 
 
 export default function HeaderHome () {
@@ -23,15 +24,19 @@ export default function HeaderHome () {
                             <span className="bar"></span>
                         </button>
                         <ul className="nav-menu" id="navMenu">
-                            <li><a href="#home" className="active"><span className="nav-number">01</span> INICIO</a></li>
-                            <li><a href="#about"><span className="nav-number">02</span> NOSOTROS</a></li>
-                            <li><a href="#services"><span className="nav-number">03</span> SERVICIOS</a></li>
-                            <li><a href="#projects"><span className="nav-number">04</span> PROYECTOS</a></li>
-                            <li><a href="#contact"><span className="nav-number">05</span> CONTACTO</a></li>
+                            <li><a href="#home" className="active">INICIO</a></li>
+                            <li><a href="#about">NOSOTROS</a></li>
+                            <li><a href="#services">SERVICIOS</a></li>
+                            <li><a href="#projects">PROYECTOS</a></li>
+                            <li><a href="#contact">CONTACTO</a></li>
                         </ul>
                     </nav>
                 </div>
             </div>
+            <HeaderMenuLogic />
         </header>
+        
     )
 }
+
+

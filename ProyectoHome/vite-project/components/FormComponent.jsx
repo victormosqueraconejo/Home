@@ -1,7 +1,7 @@
 import React from 'react'
 import "../src/index.css"
 import "./styles/FormComponent.css"
-import "../logic-components/LogicForm.js"
+import "../logic-components/LogicForm.jsx"
 
 export default function FormComponent() {
   return (
