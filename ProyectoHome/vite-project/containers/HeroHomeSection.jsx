@@ -1,8 +1,7 @@
 import React from 'react'
 import "../src/index.css"
 import "./styles/HeroHomeSection.css"
-import "../logic-components/HeroSlider.js"
-
+import "../logic-components/HeroSlider.jsx"
 
 export default function HeroHomeSection() {
   return (
@@ -25,10 +24,10 @@ export default function HeroHomeSection() {
             </div>
         </div>
         <div className="hero-controls">
-            <button className="hero-control prev">
+            <button className="hero-control prev" id="btn-prev">
                 <i className="icon-arrow-left"></i>
             </button>
-            <button className="hero-control next">
+            <button className="hero-control next" id="btn-next">
                 <i className="icon-arrow-right"></i>
             </button>
         </div>

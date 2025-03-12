@@ -7,13 +7,10 @@ export default function AboutComponent() {
     <section  className="about-section">
     <div id="about" className="container">
         <h2 className="section-title">Sobre Nosotros</h2>
+        
         <div className="about-content">
             <div className="about-image">
                 <img src="https://placehold.co/600x400" alt="Sobre ActivSena" />
-                <div className="experience-box">
-                    <div className="experience-number">12</div>
-                    <div className="experience-text">Años de Experiencia</div>
-                </div>
             </div>
             <div className="about-text">
                 <h3>Somos un equipo de innovadores apasionados por mejorar la experiencia educativa y recreativa</h3>
