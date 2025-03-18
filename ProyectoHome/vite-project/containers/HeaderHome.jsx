@@ -1,11 +1,15 @@
-import React from "react";
+import React, {useState} from "react";
 import "../src/index.css"
 import "./styles/HeaderHome.css"
-import HeaderMenuLogic from "../logic-components/HeaderMenu.jsx"
-
-
 
 export default function HeaderHome () {
+
+    const [menuDesplegado, setMenuDesplegado] = useState(false)
+
+    const cambiarEstadoMenu = () => {
+        setMenuDesplegado(!menuDesplegado)
+    }
+
     return (
         <header className="site-header">
             <div className="container">
@@ -18,24 +22,22 @@ export default function HeaderHome () {
                     </div>
                     
                     <nav className="main-nav">
-                        <button className="menu-toggle" id="menuToggle" aria-expanded="false">
+                        <button className={`menu-toggle ${menuDesplegado ? "active": ""} ` } id="menuToggle" onClick={cambiarEstadoMenu} aria-expanded={!menuDesplegado ? "true" : "false"}>
                             <span className="bar"></span>
                             <span className="bar"></span>
                             <span className="bar"></span>
                         </button>
-                        <ul className="nav-menu" id="navMenu">
-                            <li><a href="#home" className="active">INICIO</a></li>
-                            <li><a href="#about">NOSOTROS</a></li>
-                            <li><a href="#services">SERVICIOS</a></li>
-                            <li><a href="#projects">PROYECTOS</a></li>
-                            <li><a href="#contact">CONTACTO</a></li>
+                        <ul className={`nav-menu ${menuDesplegado ? "active": ""} ` } id="navMenu">
+                            <li><a href="#home" onClick={cambiarEstadoMenu} className="active">INICIO</a></li>
+                            <li><a href="#about" onClick={cambiarEstadoMenu} >NOSOTROS</a></li>
+                            <li><a href="#services" onClick={cambiarEstadoMenu}>SERVICIOS</a></li>
+                            <li><a href="#projects" onClick={cambiarEstadoMenu}>PROYECTOS</a></li>
+                            <li><a href="#contact" onClick={cambiarEstadoMenu}>CONTACTO</a></li>
                         </ul>
                     </nav>
                 </div>
             </div>
-            <HeaderMenuLogic />
         </header>
-        
     )
 }
 

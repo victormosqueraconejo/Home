@@ -1,9 +1,10 @@
 import React from 'react'
 import "../src/index.css"
 import "./styles/FormComponent.css"
-import "../logic-components/LogicForm.jsx"
+
 
 export default function FormComponent() {
+
   return (
     <div className="contact-form">
     <form id="contactForm">
