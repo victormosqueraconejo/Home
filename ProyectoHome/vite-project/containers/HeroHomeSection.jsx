@@ -1,7 +1,6 @@
 import React from 'react'
 import "../src/index.css"
 import "./styles/HeroHomeSection.css"
-import "../logic-components/HeroSlider.jsx"
 
 export default function HeroHomeSection() {
   return (
