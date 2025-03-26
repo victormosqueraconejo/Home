@@ -10,16 +10,19 @@ import AnunciosHome from '../containers/AnunciosHome.jsx'
 import ProjectsHome from "../containers/ProjectsHome.jsx"
 import ContactHome from '../containers/ContactHome.jsx'
 import FooterHome from '../containers/FooterHome.jsx'
+import ChatComponent from '../containers/ChatComponent.jsx'
 
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <HeaderHome />
     <HeroHomeSection />
+    <ChatComponent />
   <AboutComponent />
   <AnunciosHome />
   <ProjectsHome />
   <ContactHome />
+  
   <FooterHome />
   </StrictMode>,
 )
