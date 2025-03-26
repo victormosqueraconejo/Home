@@ -18,8 +18,8 @@ let projects = [
 
 export default function ProjectsHome() {
   return (
-    <section  className="projects-section">
-            <div id="projects" className="container">
+    <section id="projects" className="projects-section">
+            <div  className="container">
                 <div className="section-header">
                     <h2>Nuestros Proyectos</h2>
                 </div>

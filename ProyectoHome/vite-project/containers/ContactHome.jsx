@@ -3,11 +3,10 @@ import "../src/index.css"
 import "./styles/ContactHome.css"
 import FormComponent from "../components/FormComponent"
 
-console.log("hola")
 export default function ContactHome() {
   return (
-    <section  className="contact-section">
-    <div id="contact" className="container">
+    <section id="contact" className="contact-section">
+    <div  className="container">
         <div className="section-header">
             <h2>Contáctanos</h2>
         </div>

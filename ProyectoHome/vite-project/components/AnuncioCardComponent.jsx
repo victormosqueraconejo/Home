@@ -1,8 +1,8 @@
 import React from 'react'
 import "../src/index.css"
-import "./styles/ServiceCardComponent.css"
+import "./styles/AnuncioCardComponent.css"
 
-export default function ServiceCardComponent({title, description}) {
+export default function AnuncioCardComponent({title, description}) {
   return (
     <div className="service-card">
         <div className="service-icon">

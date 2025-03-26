@@ -4,8 +4,8 @@ import "./styles/AboutComponent.css"
 
 export default function AboutComponent() {
   return (
-    <section  className="about-section">
-    <div id="about" className="container">
+    <section id="about" className="about-section">
+    <div className="container">
         <h2 className="section-title">Sobre Nosotros</h2>
         
         <div className="about-content">

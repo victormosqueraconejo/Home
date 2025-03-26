@@ -66,10 +66,11 @@
   .btn-primary {
     background-color: var(--secondary-color);
     color: var(--white);
+    margin-left: 5%;
   }
   
   .btn-primary:hover {
-    background-color: #c82333;
+    background-color: var(--white) /* Cambiar para el hover de los botones*/
   }
   
   .play-btn {

@@ -6,7 +6,7 @@ import './index.css'
 import HeaderHome from '../containers/HeaderHome.jsx'
 import HeroHomeSection from '../containers/HeroHomeSection.jsx'
 import AboutComponent from '../containers/AboutComponent.jsx'
-import ServiceHome from '../containers/ServiceHome.jsx'
+import AnunciosHome from '../containers/AnunciosHome.jsx'
 import ProjectsHome from "../containers/ProjectsHome.jsx"
 import ContactHome from '../containers/ContactHome.jsx'
 import FooterHome from '../containers/FooterHome.jsx'
@@ -17,7 +17,7 @@ createRoot(document.getElementById('root')).render(
     <HeaderHome />
     <HeroHomeSection />
   <AboutComponent />
-  <ServiceHome />
+  <AnunciosHome />
   <ProjectsHome />
   <ContactHome />
   <FooterHome />

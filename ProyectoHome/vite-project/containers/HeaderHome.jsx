@@ -30,7 +30,7 @@ export default function HeaderHome () {
                         <ul className={`nav-menu ${menuDesplegado ? "active": ""} ` } id="navMenu">
                             <li><a href="#home" onClick={cambiarEstadoMenu} className="active">INICIO</a></li>
                             <li><a href="#about" onClick={cambiarEstadoMenu} >NOSOTROS</a></li>
-                            <li><a href="#services" onClick={cambiarEstadoMenu}>SERVICIOS</a></li>
+                            <li><a href="#anuncios" onClick={cambiarEstadoMenu}>ANUNCIOS</a></li>
                             <li><a href="#projects" onClick={cambiarEstadoMenu}>PROYECTOS</a></li>
                             <li><a href="#contact" onClick={cambiarEstadoMenu}>CONTACTO</a></li>
                         </ul>

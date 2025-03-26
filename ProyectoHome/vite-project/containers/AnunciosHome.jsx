@@ -1,10 +1,10 @@
 import React from 'react'
 import "../src/index.css"
-import "./styles/ServiceHome.css"
-import ServiceCardComponent from '../components/ServiceCardComponent'
+import "./styles/AnunciosHome.css"
+import AnuncioCardComponent from '../components/AnuncioCardComponent.jsx'
 
 let services = [{
-  title: "Planificación Estratégica",
+  title: "Apoyo de Sostenimento",
   description: "Te ayudamos a desarrollar una visión clara y una hoja de ruta para que tu negocio alcance el éxito a largo plazo."
 },{
   title: "Investigación de Mercado",
@@ -16,17 +16,17 @@ let services = [{
 }]
 
 
-export default function ServiceHome() {
+export default function AnunciosHome() {
   return (
-    <section  className="services-section">
-            <div id="services" className="container">
+    <section id="anuncios" className="services-section">
+            <div  className="container">
                 <div className="section-header">
-                    <h2>Nuestros Servicios</h2> {/*Cambiar toda esta parte por nouestros servicions*/}
+                    <h2>Anuncios Importantes</h2> {/*Cambiar toda esta parte por los anuncios*/}
                 </div>
                 <section className='services-grid'>
-                <ServiceCardComponent title={services[0].title} description={services[0].description} />
-                <ServiceCardComponent title={services[1].title} description={services[1].description} />
-                <ServiceCardComponent title={services[2].title} description={services[2].description} />
+                <AnuncioCardComponent title={services[0].title} description={services[0].description} />
+                <AnuncioCardComponent title={services[1].title} description={services[1].description} />
+                <AnuncioCardComponent title={services[2].title} description={services[2].description} />
                 </section>
  
             </div>
