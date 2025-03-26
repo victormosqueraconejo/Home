@@ -9,7 +9,7 @@ export default function ChatComponent() {
     <section className='chat-container'>
     <a href="#anuncios">
         <section className='chat-btn' >
-            <img className='chat-icon' src="../public/chat-icon.svg" alt="Chat IA ActivBot" />
+            <img className='chat-icon' src="/chat-icon.svg" alt="Chat IA ActivBot" />
             <h5>ActivBot</h5>
         </section>
     </a>
