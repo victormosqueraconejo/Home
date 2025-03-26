@@ -3,6 +3,7 @@ import "../src/index.css"
 import "./styles/ContactHome.css"
 import FormComponent from "../components/FormComponent"
 
+console.log("hola")
 export default function ContactHome() {
   return (
     <section  className="contact-section">
