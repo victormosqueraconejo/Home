@@ -2,9 +2,27 @@ import React from 'react'
 import "../src/index.css"
 import "./styles/HeroHomeSection.css"
 
+const direccionImagenes = {
+    0 : "../public/imagen1",
+    1 : "../public/imagen2",
+    2 : "../public/imagen3",
+    3 : "../public/imagen4"
+}
+
+
+
 export default function HeroHomeSection() {
+    let contador = -1
+
+    setInterval(() => {
+        if (contador === 3) {
+            contador = -1
+        }
+        contador++
+    }, 3000);
+
   return (
-    <section id="home" className="hero-section">
+    <section id="home" className="hero-section" style={`background-image: ${direccionImagenes[contador]}` }>
         <div className="container">
             <div className="hero-content">
                 <div className="hero-subtitle">
