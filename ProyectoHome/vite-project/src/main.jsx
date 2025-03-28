@@ -18,11 +18,10 @@ createRoot(document.getElementById('root')).render(
     <HeaderHome />
     <HeroHomeSection />
     <ChatComponent />
-  <AboutComponent />
-  <AnunciosHome />
-  <ProjectsHome />
-  <ContactHome />
-  
-  <FooterHome />
+    <AboutComponent />
+    <AnunciosHome />
+    <ProjectsHome />
+    <ContactHome />
+    <FooterHome />
   </StrictMode>,
 )
