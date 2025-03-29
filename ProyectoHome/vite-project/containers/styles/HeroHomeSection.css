@@ -10,6 +10,8 @@
     display: flex;
     align-items: center;
     padding-top: 80px; /* Ajustado para el header fijo */
+    overflow: hidden;
+    transition: background-image 0.5s ease-in-out; 
   }
   
   .hero-section::before {
